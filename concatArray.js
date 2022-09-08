@@ -38,6 +38,4 @@ function concatArray(array1, array2) {
   }
 }
 
-console.log(concatArray([ ], ['item1', 'item2', 'item3']))
-
 module.exports = concatArray
