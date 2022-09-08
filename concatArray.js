@@ -7,6 +7,8 @@ function concatArray(array1, array2) {
     return array2;
   } else if (array2 === null || array2 === undefined) {
     return array1;
+  } else if (array1 === undefined && array2 === null) {
+    return undefined;
   } else {
     return array1.concat(array2);
   }
